@@ -1,13 +1,13 @@
 
 var config = {
   // - Your app's id on moneypot.com
-  app_id: 685,                             // <----------------------------- EDIT ME!
+  app_id: 1317,                             // <----------------------------- EDIT ME!
   // - Displayed in the navbar
-  app_name: 'DICE 99',
+  app_name: 'BitCasino',
   // - For your faucet to work, you must register your site at Recaptcha
   // - https://www.google.com/recaptcha/intro/index.html
-  recaptcha_sitekey: '6LdByQ8TAAAAAO2uQJeJsm3rhVfHZTFNcOC51MZX',  // <----- EDIT ME!
-  redirect_uri: 'https://99dice.github.io',
+  recaptcha_sitekey: 'I dont need this!',  // <----- EDIT ME!
+  redirect_uri: 'https://betalot.ga/99dice/',
   mp_browser_uri: 'https://www.moneypot.com',
   mp_api_uri: 'https://api.moneypot.com',
   chat_uri: '//socket.moneypot.com',
@@ -20,10 +20,10 @@ var config = {
   //   Must be between 0.0 (0%) and 1.0 (100%)
   
  
-  house_edge: 0.0199,
+  house_edge: 0.01,
   chat_buffer_size: 30,
   // - The amount of bets to show on screen in each tab
-  bet_buffer_size: 10
+  bet_buffer_size: 30
 };
 
 jQuery.scrollSpeed(100, 800);
